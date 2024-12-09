@@ -11,14 +11,13 @@
 
 ### 1. В корневой директории проекта создайте виртуальное окружение:
 
-- Для Windows:
+
 ```sh
 python -m venv venv
 ```
 
-
 ### 2. Активируйте виртуальное окружение, находясь в корневой директории:
-- Для Windows:
+
 ```sh
  venv/Scripts/activate
 ```
@@ -32,14 +31,14 @@ pip install -r requirements.txt
 ```
 
 ### 5. Выполняем миграции. При активированном виртуальном окружении из директории с файлом manage.py выполните команду:
-- Для Windows:
+
 ```sh
 python manage.py migrate
 ```
 
 
 ### 6. Запустить проект:
-- Для Windows:
+
 ```sh
 python manage.py runserver
 ```
@@ -52,7 +51,7 @@ python manage.py runserver
 
 ### Загрузить данные из файла db.json в базу данных:
 
-- Для Windows:
+
 ```sh
 python manage.py loaddata ../db.json
 ```
